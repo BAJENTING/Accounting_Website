@@ -12,14 +12,14 @@
 /*font-face 1*/
 @font-face {
     font-family: PTSansNarrow;
-    src: url('fonts/PT_Sans_Narrow/PTSansNarrow-Bold.ttf') format(truetype);
+    src: url(fonts/PT_Sans_Narrow/PTSansNarrow-Bold.ttf) format(truetype);
     font-weight: normal;
     font-style: normal;
 }
 
 @font-face {
     font-family: RubikDoodleShadow;
-    src: url('fonts/Rubik_Doodle_Shadow/RubikDoodleShadow-Regular.ttf') format(truetype);
+    src: url(fonts/Rubik_Doodle_Shadow/RubikDoodleShadow-Regular.ttf) format(truetype);
     font-weight: normal;
     font-style: normal;
 }
@@ -27,7 +27,7 @@
 /*font-face 2*/
 @font-face {
     font-family: EBGramond;
-    src: url('fonts/EB_Garamond/EBGaramond-Italic-VariableFont_wght.ttf') format(truetype);
+    src: url(fonts/EB_Garamond/EBGaramond-Italic-VariableFont_wght.ttf) format(truetype);
     font-weight: normal;
     font-style: normal;
 }
@@ -35,7 +35,7 @@
 /*font-face 3*/
 @font-face {
     font-family: Comfortaa;
-    src: url('fonts/Comfortaa/Comfortaa-VariableFont_wght.ttf') format(truetype);
+    src: url(fonts/Comfortaa/Comfortaa-VariableFont_wght.ttf) format(truetype);
     font-weight: normal;
     font-style: normal;
 }
@@ -43,20 +43,21 @@
 /*font-face 4*/
 @font-face {
     font-family: DancingScript;
-    src: url('fonts/Dancing_Script/DancingScript-VariableFont_wght.ttf') format(truetype);
+    src: url(fonts/Dancing_Script/DancingScript-VariableFont_wght.ttf) format(truetype);
     font-weight: normal;
 }
 
 /*font-face 5*/
 @font-face {
     font-family: Lobster;
-    src: url('fonts/Lobster/Lobster-Regular.ttf') format(truetype);
+    src: url(fonts/Lobster/Lobster-Regular.ttf) format(truetype);
     font-weight: normal;
 }
 
+/*font-face 6*/
 @font-face {
     font-family: AbrilFatface;
-    src: url('../Accounting_Website/fonts/Abril_Fatface/AbrilFatface-Regular.ttf') format(truetype);
+    src: url(fonts/Abril_Fatface/AbrilFatface-Regular.ttf) format(truetype);
     font-weight: normal;
     font-style: normal;
 }
@@ -75,7 +76,7 @@ header {
     padding: 20px;
     padding-bottom: 5px;
     margin-top: -35px;
-    margin-bottom: 10px;
+    margin-bottom: 13.5px;
     text-shadow: 2px 2px 4px  #456686;
     font-family: 'PTSansNarrow';
     font-size: 20px;
@@ -91,10 +92,10 @@ header p {
 }
 
 #logo {
-    float: center; /* Add this line to float the logo to the left */
+    float: center; 
     max-width:10%;
     height: auto;
-    margin: -15px; /* Add some margin to provide spacing */
+    margin: -15px;
     margin-bottom: -15px;
     transition: opacity 0.3s ease-in-out;
     cursor: pointer;
